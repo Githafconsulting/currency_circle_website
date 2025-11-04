@@ -1,4 +1,3 @@
-import React from 'react'
 import { Apple, PlayCircle, QrCode } from 'lucide-react'
 
 const CTA = () => {

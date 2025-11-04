@@ -1,4 +1,3 @@
-import React from 'react'
 import Hero from '../components/Hero'
 import ScrollText from '../components/ScrollText'
 //import StatsSection from '../components/StatsSection'

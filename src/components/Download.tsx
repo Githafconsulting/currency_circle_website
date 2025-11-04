@@ -1,4 +1,3 @@
-import React from 'react'
 import { Apple, Smartphone, Download as DownloadIcon, Shield, Users, Zap, Lock } from 'lucide-react'
 
 const Download = () => {

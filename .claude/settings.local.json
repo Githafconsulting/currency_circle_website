@@ -29,7 +29,17 @@
       "Bash(del \"C:\\Users\\papcy\\Desktop\\CCWebsite\\src\\components\\WorldMapSection.tsx\")",
       "Bash(git init:*)",
       "Bash(git remote add:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git branch:*)",
+      "Bash(git config:*)",
+      "Bash(gh --version:*)",
+      "Bash(git ls-remote:*)",
+      "Bash(git remote set-url:*)",
+      "Bash(for file in App.tsx components/AppFeatures.tsx components/AppShowcase.tsx components/ChatWithMatchSection.tsx components/CreateOffersSection.tsx components/CTA.tsx components/Download.tsx components/DownloadSection.tsx components/Features.tsx components/Footer.tsx components/Hero.tsx components/HowItWorks.tsx components/LanguageSwitcher.tsx components/MatchedOffersSection.tsx components/MyOffersSection.tsx components/SendAcceptTradeSection.tsx components/Stats.tsx components/StatsSection.tsx components/Testimonials.tsx pages/Blog.tsx pages/Careers.tsx pages/Compliance.tsx pages/Home.tsx pages/NotFound.tsx pages/PrivacyPolicy.tsx)",
+      "Bash(do)",
+      "Bash(npm run build:*)"
     ],
     "deny": [],
     "ask": []

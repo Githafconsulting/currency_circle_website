@@ -1,4 +1,3 @@
-import React from 'react'
 import { Sparkles, Play } from 'lucide-react'
 import AppleIcon from '@mui/icons-material/Apple'
 import { useTranslation } from 'react-i18next'

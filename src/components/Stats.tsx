@@ -1,4 +1,3 @@
-import React from 'react'
 import { TrendingUp, Users, Globe, Shield } from 'lucide-react'
 
 const Stats = () => {

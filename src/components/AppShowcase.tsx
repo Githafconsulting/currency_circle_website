@@ -1,4 +1,3 @@
-import React from 'react'
 import { Smartphone, ArrowRight } from 'lucide-react'
 
 const AppShowcase = () => {

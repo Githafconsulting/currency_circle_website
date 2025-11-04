@@ -1,5 +1,5 @@
-import React from 'react'
-import { Users, Globe, TrendingUp, Shield, Star, Clock } from 'lucide-react'
+import { Fragment } from 'react'
+import { Users, Globe, TrendingUp } from 'lucide-react'
 import { motion } from 'framer-motion'
 
 const StatsSection = () => {
@@ -33,9 +33,8 @@ const StatsSection = () => {
         {/* Stats with Dividers */}
         <div className="flex flex-row items-center justify-center gap-4 sm:gap-8 lg:gap-0">
           {stats.map((stat, index) => {
-            const Icon = stat.icon
             return (
-              <React.Fragment key={index}>
+              <Fragment key={index}>
                 <motion.div
                   initial={{ opacity: 0, y: 30 }}
                   whileInView={{ opacity: 1, y: 0 }}
@@ -59,7 +58,7 @@ const StatsSection = () => {
                     <div className="absolute inset-0 w-px bg-gradient-to-b from-transparent via-white to-transparent opacity-20 blur-sm"></div>
                   </div>
                 )}
-              </React.Fragment>
+              </Fragment>
             )
           })}
         </div>

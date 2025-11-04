@@ -1,4 +1,3 @@
-import React from 'react'
 import { CheckCircle, FileText, Globe, Shield } from 'lucide-react'
 
 const Compliance = () => {

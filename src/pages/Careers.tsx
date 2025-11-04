@@ -1,4 +1,3 @@
-import React from 'react'
 import { Briefcase, MapPin, Clock, Users, TrendingUp, Heart, Zap } from 'lucide-react'
 
 const Careers = () => {
