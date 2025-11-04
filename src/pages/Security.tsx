@@ -1,4 +1,3 @@
-import React from 'react'
 import { Shield, Lock, Eye, FileCheck, Smartphone, AlertTriangle } from 'lucide-react'
 
 const Security = () => {
