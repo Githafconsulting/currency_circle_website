@@ -1,0 +1,161 @@
+{
+  "nav": {
+    "howItWorks": "Comment Ça Marche",
+    "createOffer": "Créer une Offre",
+    "myOffers": "Mes Offres",
+    "acceptTrade": "Accepter un Échange",
+    "chat": "Discussion",
+    "downloadApp": "Télécharger l'App"
+  },
+  "hero": {
+    "badge": "Échange de Devises Peer-to-Peer",
+    "title1": "Échangez des Devises",
+    "title2": "À Votre Façon",
+    "description": "Échangez des devises directement avec des utilisateurs vérifiés. Simple, sécurisé et selon vos conditions.",
+    "appStore": "Télécharger sur",
+    "appStoreButton": "App Store",
+    "googlePlay": "Disponible sur",
+    "googlePlayButton": "Google Play",
+    "comingSoon": "Bientôt Disponible"
+  },
+  "scrollText": {
+    "text": "Créez votre offre. Obtenez une correspondance instantanément. Discutez en toute sécurité. Échangez des devises. Tout dans une seule expérience fluide.",
+    "scrollHint": "Continuez à faire défiler pour continuer"
+  },
+  "createOffers": {
+    "badge": "Échanger des Devises",
+    "title": "Créez Vos Propres",
+    "titleGradient": "Offres d'Échange de Devises",
+    "description": "Fixez votre taux de change et publiez votre offre pour vous connecter avec des utilisateurs vérifiés."
+  },
+  "myOffers": {
+    "badge": "Suivez Vos Offres",
+    "title": "Mes Offres &",
+    "titleGradient": "Offres Correspondantes",
+    "description": "Consultez vos offres actives et voyez combien de correspondances vous avez reçues d'autres utilisateurs."
+  },
+  "matchedOffers": {
+    "badge": "Examiner les Correspondances",
+    "title": "Voyez Qui",
+    "titleGradient": "Vous A Correspondu",
+    "description": "Consultez tous les utilisateurs qui correspondent à vos offres et décidez avec qui échanger des devises."
+  },
+  "sendAccept": {
+    "badge": "Accepter ou Décliner",
+    "title": "Envoyez & Acceptez",
+    "titleGradient": "Demandes d'Échange",
+    "description": "Examinez les demandes d'échange des utilisateurs correspondants. Acceptez les offres qui vous conviennent ou refusez et attendez de nouvelles correspondances."
+  },
+  "chat": {
+    "badge": "Messagerie Sécurisée",
+    "title": "Discutez avec les Utilisateurs",
+    "titleGradient": "qui Vous Ont Correspondu",
+    "description": "Communiquez en toute sécurité avec votre utilisateur correspondant. Discutez des méthodes de paiement, des détails de l'échange et coordonnez le moment idéal pour effectuer votre échange de devises."
+  },
+  "testimonials": {
+    "badge": "Ce Que Disent Nos Utilisateurs",
+    "title": "Fiable",
+    "titleGradient": "Dans le Monde Entier",
+    "description": "Découvrez pourquoi les gens choisissent Currency Circle pour leurs besoins d'échange de devises",
+    "joinText": "Rejoignez des milliers d'utilisateurs satisfaits",
+    "ctaButton": "Échangez des Devises Aujourd'hui",
+    "testimonial1": {
+      "name": "Sarah Johnson",
+      "location": "Londres, Royaume-Uni",
+      "text": "Currency Circle a rendu l'échange de mes GBP en EUR si facile ! J'ai économisé plus de 200 $ par rapport à ma banque. La vérification a été rapide et mon partenaire d'échange était professionnel."
+    },
+    "testimonial2": {
+      "name": "Michael Chen",
+      "location": "Singapour",
+      "text": "J'étais sceptique au début, mais les fonctionnalités de sécurité et le processus de vérification m'ont rassuré. Meilleurs taux de change que j'ai trouvés partout."
+    },
+    "testimonial3": {
+      "name": "Emma Martinez",
+      "location": "Barcelone, Espagne",
+      "text": "En tant que personne qui voyage fréquemment, Currency Circle change la donne. Fini les kiosques de change d'aéroport avec des taux terribles !"
+    },
+    "testimonial4": {
+      "name": "David Kim",
+      "location": "Toronto, Canada",
+      "text": "La fonction de chat a facilité la coordination avec mon partenaire d'échange. J'ai terminé mon premier échange en moins de 2 heures. Je recommande vivement !"
+    },
+    "testimonial5": {
+      "name": "Lisa Anderson",
+      "location": "New York, États-Unis",
+      "text": "J'adore pouvoir fixer mon propre taux de change. J'ai déjà effectué trois échanges réussis et économisé des centaines de dollars en frais."
+    },
+    "testimonial6": {
+      "name": "James Wilson",
+      "location": "Sydney, Australie",
+      "text": "Le système d'évaluation par les pairs est brillant. Je peux voir les notes avant d'accepter un échange. C'est sûr et digne de confiance."
+    }
+  },
+  "faq": {
+    "badge": "Des Questions ?",
+    "title": "Questions",
+    "titleGradient": "Fréquentes",
+    "description": "Tout ce que vous devez savoir sur Currency Circle",
+    "stillHaveQuestions": "Vous avez encore des questions ?",
+    "getStartedButton": "Commencer Maintenant",
+    "questions": {
+      "q1": {
+        "question": "Comment fonctionne Currency Circle ?",
+        "answer": "Currency Circle vous connecte directement avec d'autres utilisateurs vérifiés qui souhaitent échanger des devises. Vous créez une offre du montant et de la devise que vous avez et du montant et de la devise dont vous avez besoin. Nous vous mettons en relation avec des utilisateurs compatibles, vous choisissez avec qui vous voulez échanger et payez des frais minimes de 0,5 % pour débloquer votre correspondance. Vous convenez tous les deux de la manière d'échanger les devises et laissez des avis l'un pour l'autre."
+      },
+      "q2": {
+        "question": "Currency Circle est-il sûr et sécurisé ?",
+        "answer": "Oui. Nous ne détenons aucun fonds et les transactions ne sont pas exécutées sur l'application. Une fois que les utilisateurs sont appariés, ils conviennent de la manière d'échanger en dehors de l'application. Nous vérifions tous les utilisateurs et attribuons des évaluations de risque pour aider les utilisateurs à décider avec qui échanger. Notre système d'évaluation par les pairs garantit également que vous pouvez voir les évaluations des échanges précédents avant d'accepter d'échanger des devises."
+      },
+      "q3": {
+        "question": "Quels frais Currency Circle facture-t-il ?",
+        "answer": "Nous facturons des frais de correspondance minimes uniquement lorsque vous effectuez un échange avec succès. Il n'y a pas de frais cachés, pas de frais d'abonnement et pas de frais pour parcourir ou publier des offres. Vous fixez votre propre taux de change, vous contrôlez donc la valeur que vous obtenez."
+      },
+      "q4": {
+        "question": "Combien de temps prend la vérification ?",
+        "answer": "La plupart des vérifications sont complétées dans les 24 heures. Vous devrez télécharger une pièce d'identité émise par le gouvernement et un justificatif de domicile. Notre équipe examine chaque soumission manuellement pour garantir les normes de sécurité les plus élevées pour tous les utilisateurs."
+      },
+      "q5": {
+        "question": "Quelles devises puis-je échanger ?",
+        "answer": "Currency Circle prend en charge plus de 150 devises du monde entier. Vous pouvez échanger n'importe quelle devise majeure, y compris USD, EUR, GBP, JPY, CAD, AUD, et bien d'autres. Consultez l'application pour la liste complète des devises prises en charge."
+      },
+      "q6": {
+        "question": "Combien de temps faut-il pour effectuer un échange ?",
+        "answer": "L'échange moyen est effectué dans les 24 heures suivant l'acceptation d'une correspondance. Le temps réel dépend de votre coordination avec votre partenaire d'échange et de votre méthode de paiement choisie. Certains utilisateurs effectuent des échanges en quelques heures."
+      },
+      "q7": {
+        "question": "Que faire si j'ai un problème avec mon partenaire d'échange ?",
+        "answer": "Notre équipe d'assistance est disponible 24h/24 et 7j/7 pour aider à résoudre tout problème. Nous avons également un système de résolution des litiges qui protège les deux parties. Vous pouvez signaler tout problème directement via l'application, et notre équipe enquêtera et aidera à trouver une solution équitable."
+      },
+      "q8": {
+        "question": "Puis-je annuler un échange après l'avoir accepté ?",
+        "answer": "Oui, vous pouvez annuler un échange avant qu'il ne soit terminé. Cependant, nous encourageons les utilisateurs à n'accepter que les offres qu'ils ont l'intention de compléter. Les annulations fréquentes peuvent affecter votre note d'utilisateur et votre priorité de correspondance."
+      }
+    }
+  },
+  "download": {
+    "badge": "Commencez Aujourd'hui",
+    "title": "Télécharger",
+    "titleGradient": "Currency Circle",
+    "appStore": "Télécharger sur",
+    "appStoreButton": "App Store",
+    "googlePlay": "Disponible sur",
+    "googlePlayButton": "Google Play",
+    "comingSoon": "Bientôt Disponible",
+    "info": "Rejoignez des milliers d'utilisateurs qui échangent déjà dans le monde entier"
+  },
+  "footer": {
+    "tagline": "Échangez des devises peer-to-peer avec des utilisateurs vérifiés dans le monde entier.",
+    "legal": "Juridique",
+    "privacyPolicy": "Politique de Confidentialité",
+    "termsOfService": "Conditions d'Utilisation",
+    "cookiePolicy": "Politique des Cookies",
+    "security": "Sécurité",
+    "compliance": "Conformité",
+    "contactUs": "Contactez-Nous",
+    "helpCenter": "Centre d'Aide",
+    "blog": "Blog",
+    "careers": "Carrières",
+    "rights": "Tous droits réservés",
+    "selectLanguage": "Sélectionner la Langue"
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "nav": {
+    "howItWorks": "How It Works",
+    "createOffer": "Create Offer",
+    "myOffers": "My Offers",
+    "acceptTrade": "Accept Trade",
+    "chat": "Chat",
+    "downloadApp": "Download App"
+  },
+  "hero": {
+    "badge": "Peer-to-Peer Currency Exchange",
+    "title1": "Exchange Currencies",
+    "title2": "Your Way",
+    "description": "Trade currencies directly with verified users. Simple, secure, and on your terms.",
+    "appStore": "Download on the",
+    "appStoreButton": "App Store",
+    "googlePlay": "Get it on",
+    "googlePlayButton": "Google Play",
+    "comingSoon": "Coming Soon"
+  },
+  "scrollText": {
+    "text": "Create your offer. Get matched instantly. Chat securely. Exchange currencies. All in one seamless experience.",
+    "scrollHint": "Keep scrolling to continue"
+  },
+  "createOffers": {
+    "badge": "Swap Currencies",
+    "title": "Create Your Own",
+    "titleGradient": "Currency Exchange Offers",
+    "description": "Set your exchange rate and post your offer to connect with verified users."
+  },
+  "myOffers": {
+    "badge": "Track Your Offers",
+    "title": "My Offers &",
+    "titleGradient": "Matched Offers",
+    "description": "View your active offers and see how many matches you've received from other users."
+  },
+  "matchedOffers": {
+    "badge": "Review Matches",
+    "title": "See Who",
+    "titleGradient": "Matched With You",
+    "description": "View all users who matched with your offers and decide who to exchange currencies with."
+  },
+  "sendAccept": {
+    "badge": "Accept or Decline",
+    "title": "Send & Accept",
+    "titleGradient": "Trade Requests",
+    "description": "Review trade requests from matched users. Accept offers that work for you or decline and wait for new matches."
+  },
+  "chat": {
+    "badge": "Secure Messaging",
+    "title": "Chat With Users",
+    "titleGradient": "who Matched you",
+    "description": "Communicate securely with your matched user. Discuss payment methods, exchange details, and coordinate the perfect time to complete your currency exchange."
+  },
+  "testimonials": {
+    "badge": "What Our Users Say",
+    "title": "Trusted",
+    "titleGradient": "Worldwide",
+    "description": "See why people choose Currency Circle for their currency exchange needs",
+    "joinText": "Join thousands of satisfied users",
+    "ctaButton": "Exchange Currencies Today",
+    "testimonial1": {
+      "name": "Sarah Johnson",
+      "location": "London, UK",
+      "text": "Currency Circle made exchanging my GBP to EUR so easy! I saved over $200 compared to my bank. The verification was quick and my trading partner was professional."
+    },
+    "testimonial2": {
+      "name": "Michael Chen",
+      "location": "Singapore",
+      "text": "I was skeptical at first, but the security features and verification process put my mind at ease. Best exchange rates I've found anywhere."
+    },
+    "testimonial3": {
+      "name": "Emma Martinez",
+      "location": "Barcelona, Spain",
+      "text": "As someone who travels frequently, Currency Circle is a game-changer. No more airport exchange kiosks with terrible rates!"
+    },
+    "testimonial4": {
+      "name": "David Kim",
+      "location": "Toronto, Canada",
+      "text": "The chat feature made it easy to coordinate with my trading partner. Completed my first exchange in under 2 hours. Highly recommend!"
+    },
+    "testimonial5": {
+      "name": "Lisa Anderson",
+      "location": "New York, USA",
+      "text": "I love that I can set my own exchange rate. Made three successful trades already and saved hundreds of dollars in fees."
+    },
+    "testimonial6": {
+      "name": "James Wilson",
+      "location": "Sydney, Australia",
+      "text": "The peer review system is brilliant. I can see ratings before accepting any trade. Feels safe and trustworthy."
+    }
+  },
+  "faq": {
+    "badge": "Have Questions?",
+    "title": "Frequently Asked",
+    "titleGradient": "Questions",
+    "description": "Everything you need to know about Currency Circle",
+    "stillHaveQuestions": "Still have questions?",
+    "getStartedButton": "Get Started Now",
+    "questions": {
+      "q1": {
+        "question": "How does Currency Circle work?",
+        "answer": "Currency Circle connects you directly with other verified users who want to exchange currencies. You create an offer of the amount and currency you have and the amount and currency you need. We match you with compatible users, you choose who you want to exchange with and pay a small fee of 0.5% to unlock your match. You both agree how to exchange the currencies and leave reviews for each other."
+      },
+      "q2": {
+        "question": "Is Currency Circle safe and secure?",
+        "answer": "Yes. We do not hold any funds and transactions are not executed on the application. Once users are matched, they agree how to exchange outside of the app. We verify all users and set risk-ratings to help users decide who to exchange with. Our peer review system also ensures you can see ratings from previous exhanges before agreeing to exchange currenicie."
+      },
+      "q3": {
+        "question": "What fees does Currency Circle charge?",
+        "answer": "We charge a small matching fee only when you successfully complete a trade. There are no hidden fees, no subscription costs, and no charges for browsing or posting offers. You set your own exchange rate, so you control the value you get."
+      },
+      "q4": {
+        "question": "How long does verification take?",
+        "answer": "Most verifications are completed within 24 hours. You'll need to upload a government-issued ID and proof of address. Our team reviews each submission manually to ensure the highest security standards for all users."
+      },
+      "q5": {
+        "question": "What currencies can I exchange?",
+        "answer": "Currency Circle supports over 150 currencies from around the world. You can exchange any major currency including USD, EUR, GBP, JPY, CAD, AUD, and many more. Check the app for the complete list of supported currencies."
+      },
+      "q6": {
+        "question": "How long does an exchange take to complete?",
+        "answer": "The average exchange is completed within 24 hours of accepting a match. The actual time depends on your coordination with your trading partner and your chosen payment method. Some users complete exchanges within a few hours."
+      },
+      "q7": {
+        "question": "What if I have a problem with my trading partner?",
+        "answer": "Our support team is available 24/7 to help resolve any issues. We also have a dispute resolution system that protects both parties. You can report any problems directly through the app, and our team will investigate and help find a fair solution."
+      },
+      "q8": {
+        "question": "Can I cancel a trade after accepting?",
+        "answer": "Yes, you can cancel a trade before the exchange is completed. However, we encourage users to only accept offers they intend to complete. Frequent cancellations may affect your user rating and matching priority."
+      }
+    }
+  },
+  "download": {
+    "badge": "Get Started Today",
+    "title": "Download",
+    "titleGradient": "Currency Circle",
+    "appStore": "Download on the",
+    "appStoreButton": "App Store",
+    "googlePlay": "Get it on",
+    "googlePlayButton": "Google Play",
+    "comingSoon": "Coming Soon",
+    "info": "Join thousands of users already trading worldwide"
+  },
+  "footer": {
+    "tagline": "Exchange currencies peer-to-peer with verified users worldwide.",
+    "legal": "Legal",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "cookiePolicy": "Cookie Policy",
+    "security": "Security",
+    "compliance": "Compliance",
+    "contactUs": "Contact Us",
+    "helpCenter": "Help Center",
+    "blog": "Blog",
+    "careers": "Careers",
+    "rights": "All rights reserved",
+    "selectLanguage": "Select Language"
+  }
+}

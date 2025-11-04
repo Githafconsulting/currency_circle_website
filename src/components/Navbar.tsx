@@ -1,0 +1,164 @@
+import React, { useState, useEffect } from 'react'
+import { Link, useNavigate } from 'react-router-dom'
+import { Menu, X } from 'lucide-react'
+import LanguageSwitcher from './LanguageSwitcher'
+import { useTranslation } from 'react-i18next'
+
+const Navbar = () => {
+  const { t } = useTranslation()
+  const [isScrolled, setIsScrolled] = useState(false)
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const navigate = useNavigate()
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 20)
+    }
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+
+  const scrollToSection = (id: string) => {
+    // If not on home page, navigate to home first
+    if (window.location.pathname !== '/') {
+      navigate('/')
+      // Wait for navigation to complete, then scroll
+      setTimeout(() => {
+        const element = document.getElementById(id)
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' })
+        }
+      }, 100)
+    } else {
+      const element = document.getElementById(id)
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' })
+      }
+    }
+    setIsMobileMenuOpen(false)
+  }
+
+  return (
+    <nav className="fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-2 sm:py-4">
+      <div className="container mx-auto px-4 sm:px-6">
+        <div
+          className={`backdrop-blur-xl bg-white/5 border-2 border-white/20 rounded-2xl sm:rounded-full px-4 py-3 sm:px-6 sm:py-4 shadow-2xl transition-all duration-300 ${
+            isScrolled ? 'bg-white/10 border-white/30' : 'bg-white/5 border-white/20'
+          }`}
+        >
+          <div className="flex justify-between items-center">
+            <Link to="/" className="flex items-center space-x-2 sm:space-x-3 hover:opacity-80 transition-opacity">
+              <img src="/logo.png" alt="Currency Circle" className="h-8 sm:h-10 w-auto" />
+              <span className="text-base sm:text-xl font-bold text-white">
+                Currency Circle
+              </span>
+            </Link>
+
+            {/* Desktop Menu */}
+            <div className="hidden md:flex items-center space-x-8">
+              <button
+                onClick={() => scrollToSection('how-it-works')}
+                className="text-white hover:text-gray-300 transition-colors font-medium"
+              >
+                {t('nav.howItWorks')}
+              </button>
+              <button
+                onClick={() => scrollToSection('create-offers')}
+                className="text-white hover:text-gray-300 transition-colors font-medium"
+              >
+                {t('nav.createOffer')}
+              </button>
+              <button
+                onClick={() => scrollToSection('match-offers')}
+                className="text-white hover:text-gray-300 transition-colors font-medium"
+              >
+                {t('nav.myOffers')}
+              </button>
+              <button
+                onClick={() => scrollToSection('accept-trade')}
+                className="text-white hover:text-gray-300 transition-colors font-medium"
+              >
+                {t('nav.acceptTrade')}
+              </button>
+              <button
+                onClick={() => scrollToSection('chat-match')}
+                className="text-white hover:text-gray-300 transition-colors font-medium"
+              >
+                {t('nav.chat')}
+              </button>
+              <LanguageSwitcher />
+              <button
+                onClick={() => scrollToSection('download')}
+                className="bg-white hover:bg-gray-100 text-black px-6 py-2.5 rounded-full transition-all shadow-lg hover:shadow-xl font-semibold"
+              >
+                {t('nav.downloadApp')}
+              </button>
+            </div>
+
+            {/* Mobile Menu Button */}
+            <button
+              className="md:hidden p-1"
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              aria-label="Toggle menu"
+            >
+              {isMobileMenuOpen ? (
+                <X className="text-white" size={24} />
+              ) : (
+                <Menu className="text-white" size={24} />
+              )}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* Mobile Menu */}
+      {isMobileMenuOpen && (
+        <div className="md:hidden absolute top-full left-0 right-0 px-4 sm:px-6 mt-2">
+          <div className="backdrop-blur-xl bg-white/10 border-2 border-white/20 rounded-2xl px-4 py-4 shadow-2xl space-y-1">
+            <button
+              onClick={() => scrollToSection('how-it-works')}
+              className="text-white hover:text-gray-300 hover:bg-white/5 transition-all font-medium w-full text-left py-3 px-3 rounded-lg text-sm"
+            >
+              {t('nav.howItWorks')}
+            </button>
+            <button
+              onClick={() => scrollToSection('create-offers')}
+              className="text-white hover:text-gray-300 hover:bg-white/5 transition-all font-medium w-full text-left py-3 px-3 rounded-lg text-sm"
+            >
+              {t('nav.createOffer')}
+            </button>
+            <button
+              onClick={() => scrollToSection('match-offers')}
+              className="text-white hover:text-gray-300 hover:bg-white/5 transition-all font-medium w-full text-left py-3 px-3 rounded-lg text-sm"
+            >
+              {t('nav.myOffers')}
+            </button>
+            <button
+              onClick={() => scrollToSection('accept-trade')}
+              className="text-white hover:text-gray-300 hover:bg-white/5 transition-all font-medium w-full text-left py-3 px-3 rounded-lg text-sm"
+            >
+              {t('nav.acceptTrade')}
+            </button>
+            <button
+              onClick={() => scrollToSection('chat-match')}
+              className="text-white hover:text-gray-300 hover:bg-white/5 transition-all font-medium w-full text-left py-3 px-3 rounded-lg text-sm"
+            >
+              {t('nav.chat')}
+            </button>
+            <div className="py-2 px-3">
+              <LanguageSwitcher />
+            </div>
+            <button
+              onClick={() => scrollToSection('download')}
+              className="bg-white hover:bg-gray-100 text-black px-6 py-3 rounded-full transition-all w-full shadow-lg font-semibold text-sm mt-2"
+            >
+              {t('nav.downloadApp')}
+            </button>
+          </div>
+        </div>
+      )}
+    </nav>
+  )
+}
+
+export default Navbar

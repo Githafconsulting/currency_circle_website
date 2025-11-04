@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/papcy/Desktop/currencycirclefx-main/currencycircle v2.0/**)",
+      "Bash(npm create:*)",
+      "Bash(npm install)",
+      "Bash(npm run dev:*)",
+      "Bash(timeout 5 bash:*)",
+      "Bash(dir:*)",
+      "Bash(if not exist \"C:\\Users\\papcy\\Desktop\\CCWebsite\\public\" mkdir \"C:\\Users\\papcy\\Desktop\\CCWebsite\\public\")",
+      "Bash(copy:*)",
+      "Bash(copy \"C:\\Users\\papcy\\Downloads\\12.Create Offer.png\" \"C:\\Users\\papcy\\Desktop\\CCWebsite\\public\\screen2.png\")",
+      "Bash(copy \"C:\\Users\\papcy\\Downloads\\14.My Trades My Offers.png\" \"C:\\Users\\papcy\\Desktop\\CCWebsite\\public\\screen3.png\")",
+      "Bash(copy \"C:\\Users\\papcy\\Downloads\\15.My Trades Matched Trades.png\" \"C:\\Users\\papcy\\Desktop\\CCWebsite\\public\\screen4.png\")",
+      "Bash(copy \"C:\\Users\\papcy\\Downloads\\17.My Trades Matched Trades Accept or Decline.png\" \"C:\\Users\\papcy\\Desktop\\CCWebsite\\public\\screen5.png\")",
+      "Bash(copy \"C:\\Users\\papcy\\Downloads\\20 Chat Window.png\" \"C:\\Users\\papcy\\Desktop\\CCWebsite\\public\\screen6.png\")",
+      "Bash(cmd /c copy \"c:\\Users\\papcy\\Downloads\\hero section.png\" \"C:\\Users\\papcy\\Desktop\\CCWebsite\\public\\hero.png\")",
+      "Bash(cmd /c:*)",
+      "Bash(powershell -Command \"Copy-Item ''c:\\Users\\papcy\\Downloads\\hero section.png'' ''C:\\Users\\papcy\\Desktop\\CCWebsite\\public\\hero.png''\")",
+      "Bash(powershell -Command \"Test-Path ''C:\\Users\\papcy\\Desktop\\CCWebsite\\public\\hero.png''\")",
+      "Bash(npm install:*)",
+      "Bash(powershell -Command:*)",
+      "Bash(cat:*)",
+      "Read(//c/Users/papcy/Downloads/**)",
+      "Bash(for file in Hero.tsx ScrollText.tsx CreateOffersSection.tsx MyOffersSection.tsx MatchedOffersSection.tsx SendAcceptTradeSection.tsx ChatWithMatchSection.tsx StatsSection.tsx TestimonialsSection.tsx FAQSection.tsx DownloadSection.tsx)",
+      "Bash(do sed -i 's/bg-black dark:bg-black light:bg-white/bg-black/g' \"$file\")",
+      "Bash(done)",
+      "Bash(find:*)",
+      "Bash(del \"C:\\Users\\papcy\\Desktop\\CCWebsite\\src\\components\\WorldMapSection.tsx\")",
+      "Bash(git init:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
